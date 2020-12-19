@@ -1,6 +1,6 @@
-import { ArrayUtil } from '../lang'
+import { ArrayLang } from '../lang'
 
-const { disorder, unique, duplicate } = ArrayUtil
+const { disorder, unique, duplicate } = ArrayLang
 /**
  * 初始化空数组
  */

@@ -1,1 +1,1 @@
-export * as ArrayUtil from './Array'
+export * as ArrayLang from './Array'
