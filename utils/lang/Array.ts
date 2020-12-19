@@ -1,7 +1,7 @@
 /**
  * 数组乱序
  */
-export const disorder = (arr: number[]): number[] => arr.sort(() => Math.random() - 0.5)
+export const disorder = (arr: number[]): number[] => arr.sort(() => Math.random() - Math.random())
 
 /**
  * 数组去重
