@@ -1,5 +1,5 @@
 import quickSort from '../Quick'
-import quickIn3Way from '../Quick/3way'
+import quickIn3Way from '../Quick/3ways'
 import { casesGenerator } from '../../../utils/generator/cases/sort.generator'
 
 describe('Quick Sort Tests.', () => {

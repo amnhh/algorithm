@@ -28,6 +28,7 @@ const _quickIn3Way = (a: number[], lo: number, hi: number) => {
   // 标志位
   const pivot = a[lo]
   
+  // 保证 a[lo ... lt - 1] < pivot, a[lt ... gt] = pivot, a[gt+1 ... hi] > pivot
   while (i <= gt) {
     if (a[i] === pivot) i ++
     else if (a[i] > pivot) swap(a, i, gt--)
