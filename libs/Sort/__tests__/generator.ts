@@ -17,7 +17,9 @@ const unsortedUnduplicateArrCreator = (): TSortCases => simpleCasesCreator(genUn
 // 空数组
 const emptyArrCreator = (): TSortCases => simpleCasesCreator([])
 
-
+/**
+ * sort 相关的 case 的 generator
+ */
 export const casesGenerator = (): TSortCases[] => {
   let count = 0;
   const cases: TSortCases[] = [];
