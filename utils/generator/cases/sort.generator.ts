@@ -1,4 +1,4 @@
-import { genUnduplicateUnsortedArray, genUnsortedFilledArr, nativeSort } from '../../../utils/generator/Array';
+import { genUnduplicateUnsortedArray, genUnsortedFilledArr, nativeSort } from '../Array';
 
 /**
  * sort 相关 test case 的创建方法
